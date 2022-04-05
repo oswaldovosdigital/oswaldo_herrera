@@ -79,10 +79,10 @@
 
         <section class="footer2">
             <h4>Contáctame:</h4>
-            <form action="enviar.php" method="post">
-                <input class="controls" type="text" name="name" id="nombres" placeholder="Nombre y Apellido">            
-                <input class="controls" type="email" name="mail" id="correo" placeholder="Correo">  
-                <textarea class="text-area" name="message" rows="10" cols="40" placeholder="Escribe tus comentarios..."></textarea>          
+            <form action="correos.php" method="POST">
+                <input class="controls" type="text" name="nombre" id="nombres" placeholder="Nombre y Apellido" required>            
+                <input class="controls" type="email" name="email" id="correo" placeholder="Correo" required>  
+                <textarea class="text-area" name="mensaje" rows="10" cols="40" placeholder="Escribe tus comentarios..."></textarea>          
                 
                 <button class="botons" type="submit" > Enviar </button> 
             </form>     
