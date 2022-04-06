@@ -1,0 +1,40 @@
+
+/* main {
+    width: 100%;
+    margin: 100%;
+} */
+
+
+
+.navbar__content{
+    width: 100%;
+    padding: 0 100px 0 100px;
+
+}
+
+.header--title-container2 .header--button {
+    position: absolute;
+    left: calc(50% - 73px); /* hacer calculos para posicionar un objeto*/
+    top: 35px;
+    display: block;
+    margin-top: 35px;
+    padding: 3px;
+    width: 150px;
+    height: 28px;
+    background-color: #e63a00;
+    /* sombra */
+    box-shadow: 5px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(217, 217, 217);
+    font-weight: bold;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-direction: row;
+}
+
